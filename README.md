@@ -1,2 +1,2 @@
 ### Dot Files
-These are the dotfiles that are used by me.
+These are the dotfiles used by me.
