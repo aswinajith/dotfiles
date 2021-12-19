@@ -10,6 +10,7 @@ set undodir=~/.vim/undodir
 set undofile
 set incsearch
 set nocompatible
+filetype plugin on
 set t_Co=256
 
 call plug#begin('~/.vim/plugged')
@@ -27,6 +28,8 @@ Plug 'leafgarland/typescript-vim'
 Plug 'vim-utils/vim-man'
 Plug 'lyuts/vim-rtags'
 Plug 'mbbill/undotree'
+Plug 'vimwiki/vimwiki'
+
 call plug#end()
 
 set background=dark
