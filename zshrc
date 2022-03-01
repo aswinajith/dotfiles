@@ -7,4 +7,5 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+# STARSHIP
 eval "$(starship init zsh)"
