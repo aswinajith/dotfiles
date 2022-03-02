@@ -50,8 +50,3 @@ symbol = " "
 [swift]
 symbol = "ﯣ "
 
-# CHARACTER
-[character]
-format = "[❯❯](bold green) "
-success_symbol = "[❯❯](bold green) "
-error_symbol = "[❯❯](bold red) "
