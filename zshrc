@@ -9,3 +9,6 @@ compinit
 
 # STARSHIP
 eval "$(starship init zsh)"
+
+#  SYNTAX HIGHLIGHTING
+source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
