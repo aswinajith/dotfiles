@@ -1,0 +1,11 @@
+# host-specific options
+
+Host dk
+	Hostname 10.147.17.200
+	Port 22
+	user imcacti
+
+Host raspberrypi
+	Hostname 10.147.17.88
+	Port 22
+	user pi
