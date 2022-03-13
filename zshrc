@@ -1,16 +1,13 @@
-# The following lines were added by compinstall
-
 zstyle ':completion:*' completer _expand _complete _ignored _correct _approximate
 zstyle :compinstall filename '/home/aswin/.zshrc'
 
 autoload -Uz compinit
 compinit
-# End of lines added by compinstall
 
-# STARSHIP
+# Starship
 eval "$(starship init zsh)"
 
-# ALIAS
+# Alias
 alias ls='ls -Gh --color=auto'
 alias ll='ls -alF'
 alias la='ls -A'
@@ -25,5 +22,5 @@ alias paclist="pacman -Qq | fzf --preview 'pacman -Qil {}' --layout=reverse --bi
 alias zshrc="vim ~/.zshrc"
 alias kernalupdate='env MAKEFLAGS=-j16 _microarchitecture=44 use_tracers=n use_numa=n yay --answerclean=a --answerdiff=n --sudoloop -S linux-xanmod-rog linux-xanmod-rog-headers;'
 
-# SYNTAX HIGHTLIGTING
+# Syntax highlighting
 source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
