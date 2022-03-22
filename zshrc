@@ -21,6 +21,7 @@ alias py='python3'
 alias paclist="pacman -Qq | fzf --preview 'pacman -Qil {}' --layout=reverse --bind 'enter:execute(pacman -Qil {} | less)'"
 alias zshrc="vim ~/.zshrc"
 alias kernalupdate='env MAKEFLAGS=-j16 _microarchitecture=44 use_tracers=n use_numa=n yay --answerclean=a --answerdiff=n --sudoloop -S linux-xanmod-rog linux-xanmod-rog-headers;'
+alias combine='pactl load-module module-combine-sink'
 
 # Syntax highlighting
 source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
