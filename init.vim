@@ -6,7 +6,7 @@ set rnu
 set smartcase
 set noswapfile
 set nobackup
-set undodir=~/.vim/undodir
+set undodir=~/.config/nvim/undodir
 set undofile
 set incsearch
 set nocompatible
@@ -15,6 +15,7 @@ set t_Co=256
 
 call plug#begin('~/.vim/plugged')
 
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'dracula/vim',{'as':'dracula'}
 Plug 'preservim/nerdtree' |
 	\ Plug 'Xuyuanp/nerdtree-git-plugin'
@@ -28,6 +29,7 @@ Plug 'leafgarland/typescript-vim'
 Plug 'vim-utils/vim-man'
 Plug 'mbbill/undotree'
 Plug 'vimwiki/vimwiki'
+Plug 'neovim/nvim-lspconfig'
 
 call plug#end()
 
