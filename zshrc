@@ -24,4 +24,4 @@ alias kernalupdate='env MAKEFLAGS=-j16 _microarchitecture=44 use_tracers=n use_n
 alias combine='pactl load-module module-combine-sink'
 
 # Syntax highlighting
-source /home/aswin/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/$USER/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
