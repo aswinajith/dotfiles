@@ -33,9 +33,6 @@ Plug 'neovim/nvim-lspconfig'
 
 call plug#end()
 
-set background=dark
-
-
 let g:netrw_browse_split=2
 let g:newrw_winsize = 25
 let mapleader=" "
