@@ -29,11 +29,11 @@ Plug 'vim-utils/vim-man'
 Plug 'lyuts/vim-rtags'
 Plug 'mbbill/undotree'
 Plug 'vimwiki/vimwiki'
+Plug 'bluz71/vim-moonfly-colors'
 
 call plug#end()
 
-set background=dark
-
+colorscheme moonfly
 
 let g:netrw_browse_split=2
 let g:newrw_winsize = 25

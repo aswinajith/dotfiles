@@ -30,8 +30,11 @@ Plug 'vim-utils/vim-man'
 Plug 'mbbill/undotree'
 Plug 'vimwiki/vimwiki'
 Plug 'neovim/nvim-lspconfig'
+Plug 'bluz71/vim-moonfly-colors'
 
 call plug#end()
+
+colorscheme moonfly
 
 let g:netrw_browse_split=2
 let g:newrw_winsize = 25
