@@ -22,6 +22,7 @@ alias paclist="pacman -Qq | fzf --preview 'pacman -Qil {}' --layout=reverse --bi
 alias zshrc="vim ~/.zshrc"
 alias kernalupdate='env MAKEFLAGS=-j16 _microarchitecture=44 use_tracers=n use_numa=n yay --answerclean=a --answerdiff=n --sudoloop -S linux-xanmod-rog linux-xanmod-rog-headers;'
 alias combine='pactl load-module module-combine-sink'
+alias combine='pactl unload-module module-combine-sink'
 
 # Syntax highlighting
 source $HOME/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
