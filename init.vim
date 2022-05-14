@@ -15,21 +15,17 @@ set t_Co=256
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'dracula/vim',{'as':'dracula'}
 Plug 'preservim/nerdtree' |
 	\ Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'neoclide/coc.nvim',{'branch':'release'}
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'powerline/powerline'
 Plug 'jremmen/vim-ripgrep'
 Plug 'tpope/vim-fugitive'
-Plug 'leafgarland/typescript-vim'
 Plug 'vim-utils/vim-man'
 Plug 'mbbill/undotree'
 Plug 'vimwiki/vimwiki'
-Plug 'neovim/nvim-lspconfig'
 Plug 'bluz71/vim-moonfly-colors'
 
 call plug#end()
