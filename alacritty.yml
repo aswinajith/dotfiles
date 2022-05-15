@@ -111,19 +111,19 @@
 font:
   # Normal (roman) font face
   normal:
-    family: JetBrains mono 
+    family: JetBrains Mono Nerd Font 
     style: Regular 
 
   bold:
-    family: JetBrains mono
+    family: JetBrains Mono Nerd Font
     style: Bold
 
   italic:
-    family: JetBrains mono
+    family: JetBrains Mono Nerd Font
     style: Italic
 
   bold_italic:
-    family: JetBrains mono
+    family: JetBrains Mono Nerd Font
     style: Bold Italic
 
   size: 11
