@@ -31,6 +31,7 @@ Plug 'bluz71/vim-moonfly-colors'
 call plug#end()
 
 colorscheme moonfly
+hi Normal guibg=NONE ctermbg=NONE
 
 let g:netrw_browse_split=2
 let g:newrw_winsize = 25

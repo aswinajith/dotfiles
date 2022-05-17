@@ -8,7 +8,8 @@ exec mako
 # mouse settings
 input type:pointer {
 	accel_profile "flat"	
-	} 
+}
+
 # Logo key. Use Mod1 for Alt.
 set $mod Mod4
 # Home row direction keys, like vim
@@ -26,7 +27,7 @@ set $menu dmenu_path | dmenu | xargs swaymsg exec --
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+output * bg ~/Downloads/con.png fill
 #
 # Example configuration:
 #
