@@ -23,7 +23,7 @@
   # available, otherwise `xterm-256color` is used.
   #TERM: alacritty
 window:
-  opacity: 0.80
+  opacity: 0.82
   #window:
   # Window dimensions (changes require restart)
   #
