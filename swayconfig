@@ -83,6 +83,9 @@ default_border pixel 2 # Removes window title
     # Start browser
     bindsym $mod+w exec google-chrome-stable
 
+    # Show powermenu
+    bindsym $mod+p exec rofi -show p -modi p:$HOME/dotfiles/.rofi-power-menu
+
     # Screenshot
     bindsym Print exec sway-interactive-screenshot
     # Drag floating windows by holding down $mod and left mouse button.

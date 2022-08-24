@@ -29,6 +29,7 @@ Plug 'vimwiki/vimwiki'
 Plug 'bluz71/vim-moonfly-colors'
 Plug 'neoclide/coc.nvim',{'branch':'release'}
 Plug 'turbio/bracey.vim'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 call plug#end()
 
@@ -72,3 +73,13 @@ inoremap <silent><expr> <Tab>
       \ coc#pum#visible() ? coc#pum#next(1) :
       \ CheckBackspace() ? "\<Tab>" :
       \ coc#refresh()
+
+" treesitter
+lua << EOF
+require'nvim-treesitter.configs'.setup {
+  ensure_installed = "all",     
+  highlight = {
+    enable = true              
+  },
+}
+EOF
