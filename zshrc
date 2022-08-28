@@ -24,3 +24,6 @@ alias uncombine='pactl unload-module module-combine-sink'
 
 # Syntax highlighting
 source $HOME/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# User bin
+export PATH=~/bin:"$PATH"
