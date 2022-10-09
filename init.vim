@@ -9,6 +9,7 @@ set nobackup
 set undodir=~/.config/nvim/undodir
 set undofile
 set incsearch
+set hlsearch
 set nocompatible
 filetype plugin on
 set t_Co=256
@@ -30,10 +31,11 @@ Plug 'bluz71/vim-moonfly-colors'
 Plug 'neoclide/coc.nvim',{'branch':'release'}
 Plug 'turbio/bracey.vim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'sbdchd/neoformat'
 
 call plug#end()
 
-colorscheme moonfly
+" colorscheme moonfly
 hi Normal guibg=NONE ctermbg=NONE
 
 let g:netrw_browse_split=2
@@ -73,6 +75,12 @@ inoremap <silent><expr> <Tab>
       \ coc#pum#visible() ? coc#pum#next(1) :
       \ CheckBackspace() ? "\<Tab>" :
       \ coc#refresh()
+
+" Neoformat(format on save)
+augroup fmt
+  autocmd!
+  autocmd BufWritePre * undojoin | Neoformat
+augroup END
 
 " treesitter
 lua << EOF
