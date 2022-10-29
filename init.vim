@@ -82,7 +82,7 @@ augroup fmt
   autocmd BufWritePre * undojoin | Neoformat
 augroup END
 
-" treesitter
+" treesitter highlighting
 lua << EOF
 require'nvim-treesitter.configs'.setup {
   ensure_installed = "all",     
