@@ -16,6 +16,7 @@ set t_Co=256
 
 call plug#begin('~/.vim/plugged')
 
+Plug 'jiangmiao/auto-pairs' " pairing
 Plug 'dracula/vim',{'as':'dracula'}
 Plug 'preservim/nerdtree' |
 	\ Plug 'Xuyuanp/nerdtree-git-plugin'
