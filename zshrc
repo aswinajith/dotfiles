@@ -21,18 +21,19 @@ alias paclist="pacman -Qq | fzf --preview 'pacman -Qil {}' --layout=reverse --bi
 alias zshrc="vim ~/.zshrc"
 alias combine='pactl load-module module-combine-sink'
 alias uncombine='pactl unload-module module-combine-sink'
-
+alias servy='ssh aswin@100.112.103.93'
 # Syntax highlighting
-source $HOME/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
+#source $HOME/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 # User bin
 export PATH=~/bin:"$PATH"
 export CHROME_EXECUTABLE=/usr/bin/google-chrome-stable
 #export JAVA_OPTS='-XX:+IgnoreUnrecognizedVMOptions --add-modules java.se.ee'
-export ANDROID_SDK_ROOT='/opt/android-sdk'
-export JAVA_HOME='/usr/lib/jvm/java-17-openjdk'
-export PATH=$PATH:$ANDROID_HOME/emulator
-export PATH=$PATH:$ANDROID_HOME/platform-tools/
-export PATH=$PATH:$ANDROID_HOME/tools/bin/
-export PATH=$PATH:$ANDROID_HOME/tools/
-PATH=$ANDROID_HOME/emulator:$PATH
+#export ANDROID_SDK_ROOT='/opt/android-sdk'
+#export JAVA_HOME='/usr/lib/jvm/java-17-openjdk'
+#export PATH=$PATH:$ANDROID_HOME/emulator
+#export PATH=$PATH:$ANDROID_HOME/platform-tools/
+#export PATH=$PATH:$ANDROID_HOME/tools/bin/
+#export PATH=$PATH:$ANDROID_HOME/tools/
+#PATH=$ANDROID_HOME/emulator:$PATH
